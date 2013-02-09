@@ -1,0 +1,19 @@
+{
+  "name": "lawAPI",
+  "version": "0.0.1",
+  "author": "Marian Sievers <info@mariansievers.de>",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "test": "mocha --reporter nyan"
+  },
+  "dependencies": {
+    "express": "3.1.0",
+    "ejs": "*",
+    "less-middleware": "*",
+    "mocha": "1.x",
+    "should": "1.x",
+    "mongodb": "1.x"
+  },
+  "license": "MIT"
+}
