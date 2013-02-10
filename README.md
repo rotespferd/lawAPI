@@ -1,5 +1,5 @@
 # LawAPI
-
+[![Build Status](https://travis-ci.org/rotespferd/lawAPI.png?branch=develop)](https://travis-ci.org/rotespferd/lawAPI)
 ## Overview
 
 ## API-Calls
