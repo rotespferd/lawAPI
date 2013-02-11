@@ -8,6 +8,13 @@ function DBModel(id) {
   this.get = function() {
     throw new Error("The method 'get' is not implemented in " + this.constructor.name);
   }
+
+  this.toJSON = function() {
+    var returnJson = {};
+    returnJson.id = this.id;
+
+    return returnJson;
+  }
 }
 
 module.exports = DBModel;
